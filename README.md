@@ -8,9 +8,12 @@ Images using the fluid type are stretched to match the container’s width. In t
 
 To counter this edge case I wraped the Img component in HOC NonStretchedImage in order to set maxWidth.
 
-**Note**: The GatsbyImageSharpFluid fragment does not include presentationWidth. You will need to add it in your graphql query manually.
-
-
+**Note**: The **GatsbyImageSharpFluid** fragment does not include **presentationWidth**. You need to add it in the graphql query manually.
 
 Details in Docs  
 https://www.gatsbyjs.org/packages/gatsby-image/
+
+[codesandbox](https://codesandbox.io/s/n7r3rxl1jl)
+
+
+![snapshot](./2019-04-23-15-25-n7r3rxl1jl.sse.codesandbox.io.png)
