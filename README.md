@@ -1,4 +1,4 @@
-## Example using gatsby-image to built a custom lightbox carousel using @lightbox-react
+## Example using gatsby-image to built a custom lightbox carousel with @lightbox-react
 
 https://github.com/treyhuffine/lightbox-react
 
@@ -10,14 +10,7 @@ To counter this edge case I wraped the Img component in HOC NonStretchedImage in
 
 **Note**: The GatsbyImageSharpFluid fragment does not include presentationWidth. You will need to add it in your graphql query manually.
 
-> {
-> childImageSharp {
-> fluid(maxWidth: 500, quality: 100) {
-> ...GatsbyImageSharpFluid
-> presentationWidth
-> }
-> }
-> }
+
 
 Details in Docs  
 https://www.gatsbyjs.org/packages/gatsby-image/
